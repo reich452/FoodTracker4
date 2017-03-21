@@ -9,25 +9,37 @@
 /* Begin PBXBuildFile section */
 		01BDB0291E80635200446DB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BDB0281E80635200446DB5 /* AppDelegate.swift */; };
 		01BDB02E1E80635200446DB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01BDB02C1E80635200446DB5 /* Main.storyboard */; };
-		01BDB0301E80635200446DB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01BDB02F1E80635200446DB5 /* Assets.xcassets */; };
 		01BDB0331E80635200446DB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01BDB0311E80635200446DB5 /* LaunchScreen.storyboard */; };
 		01BDB03B1E806A3700446DB5 /* FoodEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BDB03A1E806A3700446DB5 /* FoodEntryViewController.swift */; };
 		01BDB0411E80771500446DB5 /* defaultPhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = 01BDB0401E80771500446DB5 /* defaultPhoto.png */; };
 		01BDB0431E8081EE00446DB5 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BDB0421E8081EE00446DB5 /* RatingControl.swift */; };
 		01BDB0451E809B0D00446DB5 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BDB0441E809B0D00446DB5 /* Meal.swift */; };
+		01BDB0471E81875200446DB5 /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BDB0461E81875200446DB5 /* MealTableViewCell.swift */; };
+		01BDB04A1E818D5900446DB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01BDB0491E818D5900446DB5 /* Assets.xcassets */; };
+		01BDB0501E818DB300446DB5 /* Saturn.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 01BDB04B1E818DB300446DB5 /* Saturn.jpeg */; };
+		01BDB0511E818DB300446DB5 /* jack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01BDB04C1E818DB300446DB5 /* jack.jpg */; };
+		01BDB0521E818DB300446DB5 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01BDB04D1E818DB300446DB5 /* background.jpg */; };
+		01BDB0531E818DB300446DB5 /* 1484393222_like.png in Resources */ = {isa = PBXBuildFile; fileRef = 01BDB04E1E818DB300446DB5 /* 1484393222_like.png */; };
+		01BDB0541E818DB300446DB5 /* background1 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 01BDB04F1E818DB300446DB5 /* background1 2.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		01BDB0251E80635200446DB5 /* FoodTrackerNSCoding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodTrackerNSCoding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01BDB0281E80635200446DB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = FoodTrackerNSCoding/AppDelegate.swift; sourceTree = "<group>"; };
 		01BDB02D1E80635200446DB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		01BDB02F1E80635200446DB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = FoodTrackerNSCoding/Assets.xcassets; sourceTree = "<group>"; };
 		01BDB0321E80635200446DB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01BDB0341E80635200446DB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = FoodTrackerNSCoding/Info.plist; sourceTree = "<group>"; };
 		01BDB03A1E806A3700446DB5 /* FoodEntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodEntryViewController.swift; sourceTree = "<group>"; };
 		01BDB0401E80771500446DB5 /* defaultPhoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = defaultPhoto.png; sourceTree = "<group>"; };
 		01BDB0421E8081EE00446DB5 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 		01BDB0441E809B0D00446DB5 /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		01BDB0461E81875200446DB5 /* MealTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
+		01BDB0491E818D5900446DB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01BDB04B1E818DB300446DB5 /* Saturn.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Saturn.jpeg; sourceTree = "<group>"; };
+		01BDB04C1E818DB300446DB5 /* jack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jack.jpg; sourceTree = "<group>"; };
+		01BDB04D1E818DB300446DB5 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		01BDB04E1E818DB300446DB5 /* 1484393222_like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1484393222_like.png; sourceTree = "<group>"; };
+		01BDB04F1E818DB300446DB5 /* background1 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "background1 2.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,8 +60,13 @@
 				01BDB0261E80635200446DB5 /* Products */,
 				01BDB0341E80635200446DB5 /* Info.plist */,
 				01BDB0281E80635200446DB5 /* AppDelegate.swift */,
-				01BDB02F1E80635200446DB5 /* Assets.xcassets */,
 				01BDB0401E80771500446DB5 /* defaultPhoto.png */,
+				01BDB0491E818D5900446DB5 /* Assets.xcassets */,
+				01BDB04B1E818DB300446DB5 /* Saturn.jpeg */,
+				01BDB04C1E818DB300446DB5 /* jack.jpg */,
+				01BDB04D1E818DB300446DB5 /* background.jpg */,
+				01BDB04E1E818DB300446DB5 /* 1484393222_like.png */,
+				01BDB04F1E818DB300446DB5 /* background1 2.jpeg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				01BDB03E1E806B4D00446DB5 /* Model */,
+				01BDB0481E8189C900446DB5 /* ModelController */,
 				01BDB03D1E806B3D00446DB5 /* ViewController */,
 				01BDB03C1E806B3700446DB5 /* View */,
 				01BDB03F1E806B5900446DB5 /* Storyboard */,
@@ -75,7 +93,7 @@
 		01BDB03C1E806B3700446DB5 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				01BDB0421E8081EE00446DB5 /* RatingControl.swift */,
+				01BDB0461E81875200446DB5 /* MealTableViewCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -103,6 +121,14 @@
 				01BDB02C1E80635200446DB5 /* Main.storyboard */,
 			);
 			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		01BDB0481E8189C900446DB5 /* ModelController */ = {
+			isa = PBXGroup;
+			children = (
+				01BDB0421E8081EE00446DB5 /* RatingControl.swift */,
+			);
+			name = ModelController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,9 +191,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01BDB0531E818DB300446DB5 /* 1484393222_like.png in Resources */,
 				01BDB0331E80635200446DB5 /* LaunchScreen.storyboard in Resources */,
-				01BDB0301E80635200446DB5 /* Assets.xcassets in Resources */,
 				01BDB0411E80771500446DB5 /* defaultPhoto.png in Resources */,
+				01BDB0521E818DB300446DB5 /* background.jpg in Resources */,
+				01BDB0541E818DB300446DB5 /* background1 2.jpeg in Resources */,
+				01BDB04A1E818D5900446DB5 /* Assets.xcassets in Resources */,
+				01BDB0501E818DB300446DB5 /* Saturn.jpeg in Resources */,
+				01BDB0511E818DB300446DB5 /* jack.jpg in Resources */,
 				01BDB02E1E80635200446DB5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -183,6 +214,7 @@
 				01BDB0291E80635200446DB5 /* AppDelegate.swift in Sources */,
 				01BDB0431E8081EE00446DB5 /* RatingControl.swift in Sources */,
 				01BDB03B1E806A3700446DB5 /* FoodEntryViewController.swift in Sources */,
+				01BDB0471E81875200446DB5 /* MealTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +378,7 @@
 				01BDB0391E80635200446DB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -18,7 +18,6 @@ class FoodEntryViewController: UIViewController, UITextFieldDelegate, UIImagePic
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        setDefaultLabelText.tintColor = UIColor.blue
         // Handle the text field’s user input through delegate callbacks
         mealTextField.delegate = self
         

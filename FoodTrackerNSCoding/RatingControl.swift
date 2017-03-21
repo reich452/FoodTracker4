@@ -62,10 +62,10 @@ import UIKit
             let button = UIButton()
             
             // Set the button images
-            button.setImage(#imageLiteral(resourceName: "emptyStar"), for: .normal)
-            button.setImage(#imageLiteral(resourceName: "filledStar"), for: .selected)
+            button.setImage(emptyStar, for: .normal)
+            button.setImage(filledStar, for: .selected)
             button.setImage(highlightedStar, for: .highlighted)
-            button.setImage(#imageLiteral(resourceName: "highlightedStar"), for: [.highlighted, .selected])
+            button.setImage(highlightedStar, for: [.highlighted, .selected])
             
             // Add constraints
             button.translatesAutoresizingMaskIntoConstraints = false
@@ -133,8 +133,6 @@ import UIKit
             // Assign the hint string and value string
             button.accessibilityHint = hintString
             button.accessibilityValue = valueString
-            
-      
         }
     }
 }
