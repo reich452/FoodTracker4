@@ -19,8 +19,9 @@
 		01BDB0501E818DB300446DB5 /* Saturn.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 01BDB04B1E818DB300446DB5 /* Saturn.jpeg */; };
 		01BDB0511E818DB300446DB5 /* jack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01BDB04C1E818DB300446DB5 /* jack.jpg */; };
 		01BDB0521E818DB300446DB5 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01BDB04D1E818DB300446DB5 /* background.jpg */; };
-		01BDB0531E818DB300446DB5 /* 1484393222_like.png in Resources */ = {isa = PBXBuildFile; fileRef = 01BDB04E1E818DB300446DB5 /* 1484393222_like.png */; };
+		01BDB0531E818DB300446DB5 /* like.png in Resources */ = {isa = PBXBuildFile; fileRef = 01BDB04E1E818DB300446DB5 /* like.png */; };
 		01BDB0541E818DB300446DB5 /* background1 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 01BDB04F1E818DB300446DB5 /* background1 2.jpeg */; };
+		01BDB0561E8190A100446DB5 /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BDB0551E8190A100446DB5 /* MealTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,8 +39,9 @@
 		01BDB04B1E818DB300446DB5 /* Saturn.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Saturn.jpeg; sourceTree = "<group>"; };
 		01BDB04C1E818DB300446DB5 /* jack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jack.jpg; sourceTree = "<group>"; };
 		01BDB04D1E818DB300446DB5 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
-		01BDB04E1E818DB300446DB5 /* 1484393222_like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1484393222_like.png; sourceTree = "<group>"; };
+		01BDB04E1E818DB300446DB5 /* like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = like.png; sourceTree = "<group>"; };
 		01BDB04F1E818DB300446DB5 /* background1 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "background1 2.jpeg"; sourceTree = "<group>"; };
+		01BDB0551E8190A100446DB5 /* MealTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +67,7 @@
 				01BDB04B1E818DB300446DB5 /* Saturn.jpeg */,
 				01BDB04C1E818DB300446DB5 /* jack.jpg */,
 				01BDB04D1E818DB300446DB5 /* background.jpg */,
-				01BDB04E1E818DB300446DB5 /* 1484393222_like.png */,
+				01BDB04E1E818DB300446DB5 /* like.png */,
 				01BDB04F1E818DB300446DB5 /* background1 2.jpeg */,
 			);
 			sourceTree = "<group>";
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				01BDB03A1E806A3700446DB5 /* FoodEntryViewController.swift */,
+				01BDB0551E8190A100446DB5 /* MealTableViewController.swift */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -191,7 +194,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01BDB0531E818DB300446DB5 /* 1484393222_like.png in Resources */,
+				01BDB0531E818DB300446DB5 /* like.png in Resources */,
 				01BDB0331E80635200446DB5 /* LaunchScreen.storyboard in Resources */,
 				01BDB0411E80771500446DB5 /* defaultPhoto.png in Resources */,
 				01BDB0521E818DB300446DB5 /* background.jpg in Resources */,
@@ -214,6 +217,7 @@
 				01BDB0291E80635200446DB5 /* AppDelegate.swift in Sources */,
 				01BDB0431E8081EE00446DB5 /* RatingControl.swift in Sources */,
 				01BDB03B1E806A3700446DB5 /* FoodEntryViewController.swift in Sources */,
+				01BDB0561E8190A100446DB5 /* MealTableViewController.swift in Sources */,
 				01BDB0471E81875200446DB5 /* MealTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
