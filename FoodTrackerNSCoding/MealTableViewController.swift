@@ -22,7 +22,7 @@ class MealTableViewController: UITableViewController {
         
         // Load any saved meals, otherwise load sample data 
         if let savedMeals = loadMeals() {
-            meals += saveMeals()
+            meals += savedMeals
         }
         else {
         // Load the sample data.
